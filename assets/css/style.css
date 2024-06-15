@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;   
+}
+input {
+    border: none;
+}
+/* Common css start  */
+.container {
+    max-width: 1318px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    /* gap: 5px; */
+}
+.reverse{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    line-height: 1;
+}
+/* flex_base_classes */
+.f-start {
+    align-items: start;
+}
+
+.f-middle {
+    align-items: center;
+}
+
+.f-end {
+    align-items: end;
+}
+
+.f-left {
+    justify-content: left;
+}
+
+.f-center {
+    justify-content: center;
+}
+
+.f-right {
+    justify-content: right;
+}
+
+/* text_base_classes */
+.t-left {
+    text-align: left;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+/* column base class */
+.col-20 {
+    width: 20%; 
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-33 {
+    width: 33%;
+}
+.col-40{
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+}
+.col-60{
+    width: 60%;
+}
+.col-100 {
+    width: 100%;
+    max-width: 1500px;
+}
+
+
+/* spacing base classes */
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+/* straight line */
+.line{border-top: 1px solid #000000;}
